@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.appointment-container {
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  border: 2px solid #b5b7c4;
+  width: 200px;
+  padding: 20px;
+}
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title-style {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  color: #171f46;
+}
+.star-image {
+  width: 40px;
+}
+.date-style {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #b5b7c4;
+}
